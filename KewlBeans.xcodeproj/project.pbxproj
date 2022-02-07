@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840F17CD27AD066C00F4608E /* KewlBeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F17CC27AD066C00F4608E /* KewlBeansApp.swift */; };
+		840F17CF27AD066C00F4608E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F17CE27AD066C00F4608E /* ContentView.swift */; };
+		840F17D127AD066E00F4608E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840F17D027AD066E00F4608E /* Assets.xcassets */; };
+		840F17D427AD066E00F4608E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840F17D327AD066E00F4608E /* Preview Assets.xcassets */; };
+		840F17DB27AD071300F4608E /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 840F17DA27AD071300F4608E /* menu.json */; };
+		840F17DD27AD079600F4608E /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F17DC27AD079600F4608E /* Drink.swift */; };
+		840F17DF27AD084F00F4608E /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F17DE27AD084F00F4608E /* MenuSection.swift */; };
+		840F17E127AD088200F4608E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F17E027AD088200F4608E /* Menu.swift */; };
+		840F17E327AD0A6600F4608E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F17E227AD0A6600F4608E /* MenuView.swift */; };
+		840F17E527ADBDF100F4608E /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F17E427ADBDF100F4608E /* CustomizeView.swift */; };
+		8479F7C127ADE88100012BBB /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479F7C027ADE88100012BBB /* ConfigurationOption.swift */; };
+		8479F7C327AF1D9C00012BBB /* Serving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479F7C227AF1D9C00012BBB /* Serving.swift */; };
+		8479F7C527AF1E5400012BBB /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479F7C427AF1E5400012BBB /* FileManager-DocumentsDirectory.swift */; };
+		8479F7C727AF1F9200012BBB /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479F7C627AF1F9200012BBB /* History.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840F17C927AD066C00F4608E /* KewlBeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KewlBeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840F17CC27AD066C00F4608E /* KewlBeansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KewlBeansApp.swift; sourceTree = "<group>"; };
+		840F17CE27AD066C00F4608E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		840F17D027AD066E00F4608E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840F17D327AD066E00F4608E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		840F17DA27AD071300F4608E /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		840F17DC27AD079600F4608E /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		840F17DE27AD084F00F4608E /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		840F17E027AD088200F4608E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		840F17E227AD0A6600F4608E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		840F17E427ADBDF100F4608E /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		8479F7C027ADE88100012BBB /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConfigurationOption.swift; path = ../../../../../Documents/ConfigurationOption.swift; sourceTree = "<group>"; };
+		8479F7C227AF1D9C00012BBB /* Serving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serving.swift; sourceTree = "<group>"; };
+		8479F7C427AF1E5400012BBB /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		8479F7C627AF1F9200012BBB /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840F17C627AD066C00F4608E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840F17C027AD066C00F4608E = {
+			isa = PBXGroup;
+			children = (
+				840F17CB27AD066C00F4608E /* KewlBeans */,
+				840F17CA27AD066C00F4608E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840F17CA27AD066C00F4608E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840F17C927AD066C00F4608E /* KewlBeans.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840F17CB27AD066C00F4608E /* KewlBeans */ = {
+			isa = PBXGroup;
+			children = (
+				840F17CC27AD066C00F4608E /* KewlBeansApp.swift */,
+				840F17CE27AD066C00F4608E /* ContentView.swift */,
+				840F17E227AD0A6600F4608E /* MenuView.swift */,
+				840F17E427ADBDF100F4608E /* CustomizeView.swift */,
+				840F17DA27AD071300F4608E /* menu.json */,
+				840F17D027AD066E00F4608E /* Assets.xcassets */,
+				840F17DC27AD079600F4608E /* Drink.swift */,
+				8479F7C227AF1D9C00012BBB /* Serving.swift */,
+				8479F7C427AF1E5400012BBB /* FileManager-DocumentsDirectory.swift */,
+				8479F7C627AF1F9200012BBB /* History.swift */,
+				8479F7C027ADE88100012BBB /* ConfigurationOption.swift */,
+				840F17DE27AD084F00F4608E /* MenuSection.swift */,
+				840F17E027AD088200F4608E /* Menu.swift */,
+				840F17D227AD066E00F4608E /* Preview Content */,
+			);
+			path = KewlBeans;
+			sourceTree = "<group>";
+		};
+		840F17D227AD066E00F4608E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				840F17D327AD066E00F4608E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840F17C827AD066C00F4608E /* KewlBeans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840F17D727AD066E00F4608E /* Build configuration list for PBXNativeTarget "KewlBeans" */;
+			buildPhases = (
+				840F17C527AD066C00F4608E /* Sources */,
+				840F17C627AD066C00F4608E /* Frameworks */,
+				840F17C727AD066C00F4608E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KewlBeans;
+			productName = KewlBeans;
+			productReference = 840F17C927AD066C00F4608E /* KewlBeans.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840F17C127AD066C00F4608E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					840F17C827AD066C00F4608E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 840F17C427AD066C00F4608E /* Build configuration list for PBXProject "KewlBeans" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840F17C027AD066C00F4608E;
+			productRefGroup = 840F17CA27AD066C00F4608E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840F17C827AD066C00F4608E /* KewlBeans */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840F17C727AD066C00F4608E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840F17DB27AD071300F4608E /* menu.json in Resources */,
+				840F17D427AD066E00F4608E /* Preview Assets.xcassets in Resources */,
+				840F17D127AD066E00F4608E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840F17C527AD066C00F4608E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840F17CF27AD066C00F4608E /* ContentView.swift in Sources */,
+				840F17E327AD0A6600F4608E /* MenuView.swift in Sources */,
+				840F17DD27AD079600F4608E /* Drink.swift in Sources */,
+				8479F7C727AF1F9200012BBB /* History.swift in Sources */,
+				840F17DF27AD084F00F4608E /* MenuSection.swift in Sources */,
+				840F17CD27AD066C00F4608E /* KewlBeansApp.swift in Sources */,
+				8479F7C127ADE88100012BBB /* ConfigurationOption.swift in Sources */,
+				8479F7C527AF1E5400012BBB /* FileManager-DocumentsDirectory.swift in Sources */,
+				840F17E527ADBDF100F4608E /* CustomizeView.swift in Sources */,
+				840F17E127AD088200F4608E /* Menu.swift in Sources */,
+				8479F7C327AF1D9C00012BBB /* Serving.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		840F17D527AD066E00F4608E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840F17D627AD066E00F4608E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840F17D827AD066E00F4608E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KewlBeans/Preview Content\"";
+				DEVELOPMENT_TEAM = 75F5D4HC32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeytroey.KewlBeans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840F17D927AD066E00F4608E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KewlBeans/Preview Content\"";
+				DEVELOPMENT_TEAM = 75F5D4HC32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeytroey.KewlBeans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840F17C427AD066C00F4608E /* Build configuration list for PBXProject "KewlBeans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840F17D527AD066E00F4608E /* Debug */,
+				840F17D627AD066E00F4608E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840F17D727AD066E00F4608E /* Build configuration list for PBXNativeTarget "KewlBeans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840F17D827AD066E00F4608E /* Debug */,
+				840F17D927AD066E00F4608E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840F17C127AD066C00F4608E /* Project object */;
+}
